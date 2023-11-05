@@ -1,0 +1,125 @@
+body {
+    margin: 0px;
+    font-family: "Roboto";
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto-Italic.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Ananda Black";
+    src: url(fonts/AnandaBlackPersonalUseRegular-rg9Rx.ttf);
+}
+
+.everything {
+    display: grid;
+    grid-template-rows: 150px 1fr;
+    height: 100vh;
+}
+
+.content {
+    display: grid;
+    grid-template-rows: 50px 1fr 70px;
+}
+
+.gameboard {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px 29vw 30px;
+}
+
+button {
+    cursor: pointer;
+    font-family: "Roboto";
+    align-self: center;
+    justify-self: center;
+    font-size: 24px;
+    color: white;
+    background-color: rgb(80, 80, 80);
+    border-style: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+p {
+    align-self: center;
+    justify-self: center;
+}
+
+#cell1,
+#cell2,
+#cell4,
+#cell5 {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#cell3 {
+    border-bottom: 1px solid black;
+}
+
+#cell6 {
+    border-bottom: 1px solid black;
+}
+
+#cell8 {
+    border-right: 1px solid black;
+}
+
+#cell7{
+    border-right: 1px solid black;
+}
+
+.cell {
+    display: grid;
+    cursor: pointer;
+    font-size: 150px;
+    font-family: "Ananda Black";
+}
+
+.cell > p {
+    margin: 0px;
+}
+
+#header {
+    background-color: darkblue;
+    color: white;
+    font-size: 50px;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+#turn {
+    margin: 0px;
+    font-size: 24px;
+    color: rgb(80, 80, 80);
+}

@@ -105,8 +105,8 @@ p {
     align-items: center;
 }
 
-.cell > p {
-    margin: 0px;
+.cell:hover {
+    background-color: rgb(222, 243, 250);
 }
 
 #header {

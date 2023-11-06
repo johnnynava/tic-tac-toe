@@ -1,6 +1,6 @@
 I thought about a lot of ways of doing this and it can be overcomplicated by things such as letting players choose their own names and the display to show the results upon the game end.
 
-The reason I didn't do the first one is that I want this to have a very simple user interface and be straightforward and the reason for not doing the second one is that I don't think this game is innately fair. If you let X go first on the first round and then O go first on the second round, the fifth round which will be the tie-breaker will again have X go first so X has a bigger chance of winning - you could argue that if O makes a draw happen on that round (which isn't hard) to continue the game with more rounds but I don't think that anyone takes this game that seriously in the first place because of its lack of complexity.
+The reason I didn't do the first one is that I want this to have a very simple user interface and be straightforward and the reason for not doing the second one is that I don't think this game is that serious to make games of multiple rounds.
 
 I think implementing those features makes more sense in something like a chess game and even then it could be argued.
 

@@ -72,27 +72,27 @@ p {
     justify-self: center;
 }
 
+#cell0,
 #cell1,
-#cell2,
-#cell4,
+#cell3,
+#cell4 {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#cell2 {
+    border-bottom: 1px solid black;
+}
+
 #cell5 {
     border-bottom: 1px solid black;
+}
+
+#cell7 {
     border-right: 1px solid black;
 }
 
-#cell3 {
-    border-bottom: 1px solid black;
-}
-
-#cell6 {
-    border-bottom: 1px solid black;
-}
-
-#cell8 {
-    border-right: 1px solid black;
-}
-
-#cell7{
+#cell6{
     border-right: 1px solid black;
 }
 
@@ -101,6 +101,8 @@ p {
     cursor: pointer;
     font-size: 150px;
     font-family: "Ananda Black";
+    text-align: center;
+    align-items: center;
 }
 
 .cell > p {

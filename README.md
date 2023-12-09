@@ -1,3 +1,7 @@
+# Tic-Tac-Toe
+
+[Live Demo](https://johnnynava.github.io/tic-tac-toe/)
+
 I thought about a lot of ways of doing this and it can be overcomplicated by things such as letting players choose their own names and the display to show the results upon the game end.
 
 The reason I didn't do the first one is that I want this to have a very simple user interface and be straightforward and the reason for not doing the second one is that I don't think this game is that serious to make games of multiple rounds.
